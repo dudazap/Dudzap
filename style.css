@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(62, 114, 49);
+ /* background-image: url ;
+    background-repeat: no-repeat;
+    background-position: ;
+    background-size:cover ; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    /*background: url (oga.png) ;
+    background-repeat:center center ;
+    background-size: cover; */
+    background-color: rgb(255, 255, 255);
+    border: solid 210px rgb(0, 0, 0);
+    border-radius: 5px ;
+    margin-bottom: 10px;
+    
+}
+.logo {
+    height: 100px;
+    margin: 10px 45% 0;
+} 
+
+.titulo {
+    color: rgb(60, 100, 50);
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.2;
+ /* text-align: center; */
+    margin: 10px 44% 0;
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+
+/*.menu {
+    border: solid 2px #0a0;
+    background-color: black;
+    padding: 12px 0;
+} */
+
+.item-menu {
+    display: inline-block;
+    margin: 0 0% 0 2%;
+    font-size: 25px;
+    font-weight: bold;
+ /* font-family: serif; */
+}
+
+.item-menu a {
+    text-decoration: none;
+    color: rgb(60, 100, 50);
+}
+
+.item-menu a:hover {
+    font-size: 26px;
+    color: rgb(30, 50, 25);;
+}
+
+/*div {
+    border: double 5px black;
+    background-color: blue;
+    color: blueviolet;
+    text-align: center;
+    width: 98%;
+} */
+
+ul {
+    list-style: none;
+}
+
+/* .texto {
+    background-color: ;
+    color; black
+} */
+ 
+.rodape {
+    background-color: rgb(255, 255, 255);
+    color: rgb(60, 100, 50);
+/*  border-top: solid 5px yellow; */
+    padding: 30px 0;
+    margin-top: 30px;
+    text-align: center;
+    border: solid 5px rgb(0, 0, 0);
+    border-radius: 5px ;
+    margin-bottom: 10px;
+}
+
+.rodape img {
+    height: 60px;
+    margin: 10px 45%;
+}
