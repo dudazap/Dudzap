@@ -15,11 +15,17 @@ header {
     border: solid 210px rgb(0, 0, 0);
     border-radius: 5px ;
     margin-bottom: 10px;
+   /* bottom: ;
+    left: 50px;
+    right: 50px; */
+    position: fixed;
+    width: 100%;
+    top: 0;
     
 }
 .logo {
     height: 100px;
-    margin: 10px 45% 0;
+    margin: 10px 47% 0;
 } 
 
 .titulo {
@@ -88,5 +94,11 @@ ul {
 
 .rodape img {
     height: 60px;
-    margin: 10px 45%;
+    margin: 10px 45% 0;
 }
+
+main {
+    margin-top: 200px ;
+}
+
+
