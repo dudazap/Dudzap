@@ -12,9 +12,10 @@ header {
     background-repeat:center center ;
     background-size: cover; */
     background-color: rgb(255, 255, 255);
-    border: solid 210px rgb(0, 0, 0);
-    border-radius: 5px ;
+    border: solid 9px rgb(0, 0, 0);
+    border-radius: 10px ;
     margin-bottom: 10px;
+    
    /* bottom: ;
     left: 50px;
     right: 50px; */
@@ -25,7 +26,7 @@ header {
 }
 .logo {
     height: 100px;
-    margin: 10px 47% 0;
+    margin: 10px 45% 0;
 } 
 
 .titulo {
@@ -33,17 +34,16 @@ header {
     font-size: 30px;
     font-weight: bold;
     line-height: 1.2;
- /* text-align: center; */
+/*  text-align: center; */
     margin: 10px 44% 0;
     margin-top: 4px;
     margin-bottom: 8px;
 }
 
-/*.menu {
-    border: solid 2px #0a0;
-    background-color: black;
+.menu {
+    border-bottom: solid 5px black;
     padding: 12px 0;
-} */
+} 
 
 .item-menu {
     display: inline-block;
@@ -83,22 +83,29 @@ ul {
 .rodape {
     background-color: rgb(255, 255, 255);
     color: rgb(60, 100, 50);
-/*  border-top: solid 5px yellow; */
-    padding: 30px 0;
+/*  border-top: solid 5px yellow
+    padding: 30px 0;*/
     margin-top: 30px;
-    text-align: center;
     border: solid 5px rgb(0, 0, 0);
     border-radius: 5px ;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .rodape img {
     height: 60px;
-    margin: 10px 45% 0;
+    margin: 10px 46% 0;
+}
+
+.rodape p {
+    width: 400px;
+    margin: 10px 38% 10px;
+
 }
 
 main {
     margin-top: 200px ;
+    text-align: center;
+    line-height: 1.5;
 }
 
 
