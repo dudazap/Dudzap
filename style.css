@@ -12,10 +12,9 @@ header {
     background-repeat:center center ;
     background-size: cover; */
     background-color: rgb(255, 255, 255);
-    border: solid 9px rgb(0, 0, 0);
+    border: solid 2px rgb(0, 0, 0);
     border-radius: 10px ;
     margin-bottom: 10px;
-    
    /* bottom: ;
     left: 50px;
     right: 50px; */
@@ -41,8 +40,8 @@ header {
 }
 
 .menu {
-    border-bottom: solid 5px black;
-    padding: 12px 0;
+    border-bottom: solid 2px black;
+    padding: 7px 0;
 } 
 
 .item-menu {
@@ -103,9 +102,35 @@ ul {
 }
 
 main {
-    margin-top: 200px ;
+    margin-top: 220px ;
     text-align: center;
     line-height: 1.5;
 }
 
+.subtitulo {
+    height: 50px;
+    font-size: 30px;
+    width: 450px;
+    margin: 30px 36% 10px;
+}
 
+p {
+    font-size: 10;
+    line-height: 30px;
+}
+
+.texto {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px 17% 1px;
+    font-size: 20px;
+}
+
+img {
+    margin: 0px 2% 0px;
+    float: left;
+    height: 350px;
+}
+
+.youtube {
+    text-align: center;
+}
