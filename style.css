@@ -125,12 +125,33 @@ p {
     font-size: 20px;
 }
 
-img {
+.boaconha {
     margin: 0px 2% 0px;
     float: left;
     height: 350px;
 }
 
 .youtube {
-    text-align: center;
+    margin: 20px 17% 1px;
 }
+
+.gold {
+    height: 200px;
+    float: left;
+}
+
+table {
+    
+}
+
+.pe{
+    padding: 10px;
+    height: 200px;
+}
+
+.pe p{
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
