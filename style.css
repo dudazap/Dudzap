@@ -108,7 +108,7 @@ main {
 }
 
 .subtitulo {
-    height: 50px;
+    height: 30px;
     font-size: 30px;
     width: 450px;
     margin: 30px 36% 10px;
@@ -121,14 +121,14 @@ p {
 
 .texto {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 20px 17% 1px;
-    font-size: 20px;
+    margin: 70px 20% 5px;
+    font-size: 30px;
 }
 
 .boaconha {
     margin: 0px 2% 0px;
     float: left;
-    height: 350px;
+    height: 300px;
 }
 
 .youtube {
@@ -140,10 +140,6 @@ p {
     float: left;
 }
 
-table {
-    
-}
-
 .pe{
     padding: 10px;
     height: 200px;
@@ -151,7 +147,30 @@ table {
 
 .pe p{
     font-size: 30px;
-    margin-top: 100px;
+    margin-top:55px;
     margin-bottom: 50px;
+    margin-left: 20%;
+    text-align: left;
+}
+
+.patro{
+    min-height: 500px;
+    position: absolute;
+    top: 220px;
+    left: 89%;
+    border-radius: 10px;
+    margin-right: 3%;
+    padding: 250px 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.patroti{
+    text-align: center;
+    font-size: 17px;
+    color: rgb(62, 114, 49);
+    font-weight: bold;
+    text-shadow: 0px 0px 20px rgb(62, 114, 49);
+    font-variant: small-caps;
+    margin-bottom: 10px;
 }
 
